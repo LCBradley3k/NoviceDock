@@ -1,0 +1,176 @@
+0000.000 (0) Opened log file at time: Fri, 25 Aug 2017 16:39:46 +0000 on https://novicedock.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8.1 PHP: 7.0.22-0ubuntu0.16.04.1 (apache2handler, Linux novicedock 4.4.0-71-generic #92-Ubuntu SMP Fri Mar 24 12:59:01 UTC 2017 x86_64) MySQL: 5.7.19 WPLANG: en_US Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5M | 6M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 26154.6 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.008 (0) Semaphore (fd, wp_options) being initialised
+0000.013 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.021 (0) Set semaphore last lock (fd) time to 2017-08-25 16:39:46
+0000.022 (0) Semaphore lock (fd) complete
+0000.028 (0) Backup run: resumption=0, nonce=51f99fd76c1d, begun at=1503679186 (0s ago), job type=backup
+0000.030 (0) Scheduling a resumption (1) after 300 seconds (1503679486) in case this run gets aborted
+0000.047 (0) Checking if we have a zip executable available
+0000.054 (0) Creation of backups of directories: beginning
+0000.058 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.230 (0) Total entities for the zip file: 602 directories, 3633 files (0 skipped as non-modified), 61 MB
+0000.259 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.272 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.283 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.295 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.308 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.310 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12 MB, 3633 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.505 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 600 files added (on-disk size: 4151 KB)
+0001.517 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 700 files added (on-disk size: 4151 KB)
+0001.531 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 800 files added (on-disk size: 4151 KB)
+0001.546 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 900 files added (on-disk size: 4151 KB)
+0001.561 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 1000 files added (on-disk size: 4151 KB)
+0001.563 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.4 MB, 3633 files batched, 501 (1002) added so far); re-opening (prior size: 4151 KB)
+0001.891 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 1100 files added (on-disk size: 5026.2 KB)
+0001.910 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 1200 files added (on-disk size: 5026.2 KB)
+0001.929 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 1300 files added (on-disk size: 5026.2 KB)
+0001.953 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 1400 files added (on-disk size: 5026.2 KB)
+0001.976 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 1500 files added (on-disk size: 5026.2 KB)
+0001.979 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 3633 files batched, 501 (1503) added so far); re-opening (prior size: 5026.2 KB)
+0002.327 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 1600 files added (on-disk size: 6260.5 KB)
+0002.349 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 1700 files added (on-disk size: 6260.5 KB)
+0002.369 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 1800 files added (on-disk size: 6260.5 KB)
+0002.390 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 1900 files added (on-disk size: 6260.5 KB)
+0002.411 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 2000 files added (on-disk size: 6260.5 KB)
+0002.415 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (18.6 MB, 3633 files batched, 501 (2004) added so far); re-opening (prior size: 6260.5 KB)
+0004.435 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 2100 files added (on-disk size: 11683.8 KB)
+0004.460 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 2200 files added (on-disk size: 11683.8 KB)
+0004.487 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 2300 files added (on-disk size: 11683.8 KB)
+0004.514 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 2400 files added (on-disk size: 11683.8 KB)
+0004.548 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 2500 files added (on-disk size: 11683.8 KB)
+0004.551 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9 MB, 3633 files batched, 501 (2505) added so far); re-opening (prior size: 11683.8 KB)
+0005.657 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 2600 files added (on-disk size: 14227.7 KB)
+0005.688 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 2700 files added (on-disk size: 14227.7 KB)
+0005.715 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 2800 files added (on-disk size: 14227.7 KB)
+0005.743 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 2900 files added (on-disk size: 14227.7 KB)
+0005.771 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 3000 files added (on-disk size: 14227.7 KB)
+0005.775 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.3 MB, 3633 files batched, 501 (3006) added so far); re-opening (prior size: 14227.7 KB)
+0006.544 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 3100 files added (on-disk size: 16189.5 KB)
+0006.577 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 3200 files added (on-disk size: 16189.5 KB)
+0006.608 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 3300 files added (on-disk size: 16189.5 KB)
+0006.638 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 3400 files added (on-disk size: 16189.5 KB)
+0006.669 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 3500 files added (on-disk size: 16189.5 KB)
+0006.674 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.8 MB, 3633 files batched, 501 (3507) added so far); re-opening (prior size: 16189.5 KB)
+0007.290 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip.tmp: 3600 files added (on-disk size: 19273.9 KB)
+0008.366 (0) Created plugins zip (0) - 20261.6 KB in 8.3 s (2439.3 KB/s) (sha1: 41e550908fb3430e22e6085f5a015c98bb2cb5f8, sha256: 84cc9b5d217450f19041e8009a228bcbbf7fdb1b6f1297e35a87d7db73a73433)
+0008.371 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.396 (0) Total entities for the zip file: 64 directories, 362 files (0 skipped as non-modified), 10.3 MB
+0008.403 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.409 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.416 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.021 (0) Created themes zip (0) - 7752.1 KB in 0.6 s (11961.6 KB/s) (sha1: 7fe3fa55f66ee2d6937ae5fc1dea646aa2310759, sha256: 3c5a7824d4a5f605dcdd1d17f21057098994095d121f2d06e630b29adaf5cc8f)
+0009.024 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.026 (0) Looking for candidates to back up in: /var/www/html/wp-content/uploads
+0009.026 (0) finding files: 2017: adding to list (1)
+0009.027 (0) finding files: js_composer: adding to list (2)
+0009.028 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.045 (0) Total entities for the zip file: 6 directories, 312 files (0 skipped as non-modified), 12.6 MB
+0009.050 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.056 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.062 (0) Zip: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.433 (0) Created uploads zip (0) - 12989.8 KB in 0.4 s (32176.7 KB/s) (sha1: 3a258f362004a31090139ca1bf5aca257076d342, sha256: 9fb57b708a0136561ba5ce9b25cde58fdf01a0a056fa1a20b5b752ccfc611e34)
+0009.437 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.438 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.438 (0) Looking for candidates to back up in: /var/www/html/wp-content
+0009.439 (0) finding files: themes: skipping: this is the themes directory
+0009.440 (0) finding files: uploads: skipping: this is the uploads directory
+0009.441 (0) finding files: advanced-cache.php: adding to list (1)
+0009.442 (0) finding files: updraft: skipping: this is the updraft directory
+0009.443 (0) finding files: mu-plugins: adding to list (2)
+0009.443 (0) finding files: wp-cache-config.php: adding to list (3)
+0009.445 (0) finding files: upgrade: skipping: excluded by options
+0009.445 (0) finding files: plugins: skipping: this is the plugins directory
+0009.446 (0) finding files: cache: skipping: excluded by options
+0009.447 (0) finding files: index.php: adding to list (4)
+0009.450 (0) Total entities for the zip file: 1 directories, 4 files (0 skipped as non-modified), 0 MB
+0009.457 (0) Created others zip (0) - 5.2 KB in 0 s (555.5 KB/s) (sha1: 06124b17a619693e1e7310913767e4ae7db59f1c, sha256: 9a5b9532c654c3d87ae452f619e4348a0b1d66bd7f6b12dae0fa7afbb09ef550)
+0009.462 (0) Saving backup status to database (elements: 8)
+0009.465 (0) Beginning creation of database dump (WordPress DB)
+0009.468 (0) Testing: /usr/bin/mysqldump
+0009.527 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1207 bytes total)
+0009.530 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0009.542 (0) Table wp_options: Total expected rows (approximate): 383
+0009.583 (0) Table wp_options: Total rows added: 385 in 0.04 seconds
+0009.585 (0) Table wp_options: finishing file (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_options.table.gz - 181.8 KB)
+0009.589 (0) Table wp_users: Total expected rows (approximate): 3
+0009.592 (0) Table wp_users: Total rows added: 3 in 0.00 seconds
+0009.593 (0) Table wp_users: finishing file (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_users.table.gz - 0.8 KB)
+0009.596 (0) Table wp_usermeta: Total expected rows (approximate): 65
+0009.599 (0) Table wp_usermeta: Total rows added: 65 in 0.00 seconds
+0009.600 (0) Table wp_usermeta: finishing file (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_usermeta.table.gz - 2.9 KB)
+0009.604 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0009.606 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0009.607 (0) Table wp_commentmeta: finishing file (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0009.610 (0) Table wp_comments: Total expected rows (approximate): 0
+0009.612 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0009.613 (0) Table wp_comments: finishing file (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_comments.table.gz - 0.5 KB)
+0009.622 (0) Table wp_links: Total expected rows (approximate): 0
+0009.625 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0009.626 (0) Table wp_links: finishing file (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_links.table.gz - 0.4 KB)
+0009.630 (0) Table wp_postmeta: Total expected rows (approximate): 8027
+0009.687 (0) Table wp_postmeta: binary mysqldump finished (writes: 32) in 0.06 seconds
+0009.689 (0) Table wp_postmeta: finishing file (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_postmeta.table.gz - 74.6 KB)
+0009.693 (0) Table wp_posts: Total expected rows (approximate): 516
+0009.726 (0) Table wp_posts: Total rows added: 506 in 0.03 seconds
+0009.729 (0) Table wp_posts: finishing file (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_posts.table.gz - 69.5 KB)
+0009.733 (0) Table wp_term_relationships: Total expected rows (approximate): 51
+0009.736 (0) Table wp_term_relationships: Total rows added: 51 in 0.00 seconds
+0009.738 (0) Table wp_term_relationships: finishing file (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0009.742 (0) Table wp_term_taxonomy: Total expected rows (approximate): 24
+0009.743 (0) Table wp_term_taxonomy: Total rows added: 24 in 0.00 seconds
+0009.745 (0) Table wp_term_taxonomy: finishing file (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0009.748 (0) Table wp_termmeta: Total expected rows (approximate): 26
+0009.750 (0) Table wp_termmeta: Total rows added: 26 in 0.00 seconds
+0009.751 (0) Table wp_termmeta: finishing file (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_termmeta.table.gz - 0.6 KB)
+0009.755 (0) Table wp_terms: Total expected rows (approximate): 24
+0009.756 (0) Table wp_terms: Total rows added: 24 in 0.00 seconds
+0009.758 (0) Table wp_terms: finishing file (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_terms.table.gz - 0.7 KB)
+0009.761 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_options.table.gz (1/12): adding to final database dump
+0009.802 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_users.table.gz (2/12): adding to final database dump
+0009.809 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0009.810 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0009.812 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0009.813 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_links.table.gz (6/12): adding to final database dump
+0009.814 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0009.831 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0009.865 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0009.868 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0009.870 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0009.871 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0009.872 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db.gz: finished writing out complete database file (320 KB)
+0009.882 (0) Total database tables backed up: 12 (backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db.gz, size: 339262, sha256)
+0009.888 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0009.889 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0009.890 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0009.891 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-others.zip: others: This file has not yet been successfully uploaded: will queue
+0009.891 (0) backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.893 (0) Saving backup history. Total backup size: 40.4 MB
+0009.895 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0009.898 (0) Cloud backup selection (1/1): none (last)
+0009.899 (0) No remote despatch: user chose no remote backup service
+0009.901 (0) Recording as successfully uploaded: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-plugins.zip (0033ac3fb807fddaff4119fbbac00cb4)
+0009.906 (0) Recording as successfully uploaded: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-themes.zip (c6f15857cd7bbbb076bc2301e097172e)
+0009.911 (0) Recording as successfully uploaded: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-uploads.zip (c9ff96b481bd24acac90a71ad824d452)
+0009.915 (0) Recording as successfully uploaded: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-others.zip (70a707dff91e7830f99f5b4c37bd4770)
+0009.920 (0) Recording as successfully uploaded: backup_2017-08-25-1639_novicedockcom_51f99fd76c1d-db.gz (66f7133ef483904e9b89fe8af5a6c10e)
+0009.925 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0009.926 (0) Number of backup sets in history: 1; groups (db): 1
+0009.927 (0) Examining (for databases) backup set with group_id=0, nonce=51f99fd76c1d, datestamp=1503679186 (Aug 25 2017 16:39:46)
+0009.929 (0) This backup set is the backup set just made, so will not be deleted.
+0009.929 (0) Number of backup sets in history: 1; groups (files): 1
+0009.930 (0) Examining (for files) backup set with nonce=51f99fd76c1d, datestamp=1503679186 (Aug 25 2017 16:39:46)
+0009.931 (0) This backup set is the backup set just made, so will not be deleted.
+0009.932 (0) This backup set is the backup set just made, so will not be deleted.
+0009.932 (0) This backup set is the backup set just made, so will not be deleted.
+0009.932 (0) This backup set is the backup set just made, so will not be deleted.
+0009.932 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.933 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0009.935 (0) Resume backup (51f99fd76c1d, 0): finish run
+0009.938 (0) Decremented the semaphore (fd) by 1
+0009.941 (0) Semaphore (fd) unlocked
+0009.942 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0009.945 (0) No email will/can be sent - the user has not configured an email address.
+0009.946 (0) The backup apparently succeeded and is now complete
