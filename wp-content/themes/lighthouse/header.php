@@ -18,7 +18,7 @@
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
   <meta http-equiv="content-language" content="<?php echo $lang=get_bloginfo("language"); ?>" />
   <meta name="language" content="<?php echo $lang=get_bloginfo("language"); ?>" />
-  <meta name="google-site-verification" content="5W1G9izR4P9rNXUWgQyHZKk0-dfE9fh-5oAfkoH5hSQ" />
+  <meta name="google-site-verification" content="amJivJxsw8Y6HGC5BoGvswLNiE_54H2d_QkrejTqtSo" />
   <meta name="msvalidate.01" content="67054D71047D0E79B45801C3BF7CBDD7" />
   <!--<link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">-->
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700,700i,800,900" rel="stylesheet">
