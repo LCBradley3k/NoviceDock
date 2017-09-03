@@ -90,8 +90,6 @@ jQuery( document ).ready(function() {
   if (jQuery('.sidebar').length){
     var $sidebar = jQuery('.sidebar');
     var $container = jQuery('.syllabus-container');
-    //var sideBottom = $sidebar.offset().top + $sidebar.height();
-    //var contBottom = $container.offset().top + $container.height();
     var sideBottom = parseFloat($sidebar.css('top')) + $sidebar.height();
     var contBottom = $container.offset().top + $container.height();
     console.log("SideBottom = " + sideBottom);
