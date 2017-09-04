@@ -580,6 +580,12 @@ if( function_exists('acf_add_options_page') ) {
 		'parent_slug'	=> 'theme-general-settings',
 	));
 
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Theme Writer Settings',
+		'menu_title'	=> 'Writers',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+
 }
 
 add_action( 'init', 'wptuts_buttons' );
@@ -707,5 +713,5 @@ add_action( 'after_setup_theme', 'wpdocs_theme_setup' );
 
 add_theme_support( 'post-thumbnails' );
 function wpdocs_theme_setup() {
-    add_image_size( 'resource-thumb', 100, 100, false ); // 300 pixels wide and tall 
+    add_image_size( 'resource-thumb', 100, 100, false ); // 300 pixels wide and tall
 }

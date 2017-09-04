@@ -251,6 +251,14 @@ html, body {
   padding-top: 52px;
 }
 
+.syllabus-container {
+  position: relative;
+}
+
+.writer-container {
+  margin-top: 52px;
+}
+
 body,
 button,
 h1,
@@ -1109,6 +1117,10 @@ img.wp-post-image {
 }
 
 .post-content:last-child {
+  margin-bottom: 0px;
+}
+
+.post-content:last-child p:last-child {
   margin-bottom: 0px;
 }
 

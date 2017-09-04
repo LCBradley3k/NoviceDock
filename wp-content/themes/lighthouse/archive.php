@@ -34,6 +34,13 @@ get_header(); ?>
 
 	</div> <!--.row-->
 </div><!--.container-->
+<div class="container writer-container">
+	<div class="row">
+		<div class="col-md-12">
+			<?php get_template_part('template-parts/content-writer'); ?>
+		</div>
+	</div>
+</div>
 
 </div>
 
