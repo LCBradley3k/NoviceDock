@@ -549,6 +549,12 @@ span.active a {
   text-shadow: 0.3px 0.3px 1px rgba(28, 35, 57, 0.8);
 }
 
+.tag--mentor {
+  color: #fff;
+  background: #39D07C;
+  text-shadow: 0.3px 0.3px 1px rgba(45, 160, 96, 0.5);
+}
+
 .title-block {
   background-color: #ffffff;
   position: relative;
