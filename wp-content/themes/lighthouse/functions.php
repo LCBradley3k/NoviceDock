@@ -715,3 +715,24 @@ add_theme_support( 'post-thumbnails' );
 function wpdocs_theme_setup() {
     add_image_size( 'resource-thumb', 100, 100, false ); // 300 pixels wide and tall
 }
+
+/* Custom post type section for writers */
+
+function create_post_type() {
+  register_post_type( 'writer',
+    array(
+      'labels' => array(
+        'name' => __( 'Writers' ),
+        'singular_name' => __( 'Writers' )
+      ),
+			'public' => true,  // it's not public, it shouldn't have it's own permalink, and so on
+			/*'publicly_queryable' => true,  // you should be able to query it
+			'show_ui' => true,  // you should be able to edit it in wp-admin
+			'exclude_from_search' => true,  // you should exclude it from search results
+			'show_in_nav_menus' => false,  // you shouldn't be able to add it to menus
+			'has_archive' => false,  // it shouldn't have archive page
+			'rewrite' => false,  // it shouldn't have rewrite rules */
+    )
+  );
+}
+add_action( 'init', 'create_post_type' );
