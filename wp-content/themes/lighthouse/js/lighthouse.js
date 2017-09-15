@@ -16,6 +16,7 @@ jQuery('.topics-btn').click(function(){
   jQuery('.topics-btn .fa').toggleClass('fa-activate');
   jQuery('.category-menu-wrap').toggleClass('category-menu-visible');
   jQuery('.darken').toggleClass("darken-active");
+  jQuery(this).toggleClass('active');
 });
 
 jQuery('.darken').click(function(){

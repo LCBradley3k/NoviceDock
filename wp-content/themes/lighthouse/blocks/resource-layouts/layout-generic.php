@@ -10,12 +10,12 @@
   ?>
   <div class="item-block item-block--resource">
     <div class="img-wrap img-wrap-small">
-      <a href="<?php echo $item_url ?>">
+      <a rel="noopener noreferrer" target="_blank" href="<?php echo $item_url ?>">
         <img src="<?php echo $item_img['sizes']['resource-thumb'] ?>" alt="<?php echo $item_img["alt"]; ?>" />
       </a>
     </div>
     <div class="top-wrap">
-      <a href="<?php echo $item_url ?>"><h3><?php echo $item_title ?></h3></a>
+      <a rel="noopener noreferrer" target="_blank" href="<?php echo $item_url ?>"><h3><?php echo $item_title ?></h3></a>
       <div class="main-info">
         <div class="media-type"> <span class="price <?php if($item_price == 'free'){ echo 'free'; } ?>"><?php echo $item_price ?></span> | <?php echo $item_media_type ?> </div>
       </div>

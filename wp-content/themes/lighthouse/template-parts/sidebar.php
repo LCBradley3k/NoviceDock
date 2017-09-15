@@ -19,7 +19,7 @@
         <div class="title-block__wrap">
           <h1><?php echo single_cat_title() ?></h1>
           <div class="tag tag--syllabus">SYLLABUS</div>
-          <span class="cat-details"><span><?php echo $cat->count ?></span> Sections</span>
+          <span class="cat-details"> &#8226; <span><?php echo $cat->count ?></span> Sections</span>
         </div>
       </div>
     <?php if ( have_posts() ) : ?>

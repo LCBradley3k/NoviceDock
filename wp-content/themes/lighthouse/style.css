@@ -426,6 +426,7 @@ code {
 
 .subtitle {
   color: #e2a56d!important;
+  color: #eaaa70!important;
   font-weight: 700!important;
   display: block!important;
   font-size: 16px!important;
@@ -657,7 +658,6 @@ span.active a.side-post {
   font-weight: 700;
   font-size: 12px;
   font-family: "Nunito Sans", sans-serif;
-  margin-left: 6px;
   vertical-align: top;
 }
 
@@ -2841,7 +2841,9 @@ article {
   line-height: 52px;
   background-color: #F0F5F8; /* OG */
   background-color: #e6edf1;
+  background-color: #e6f0f9;
   color: #346492!important;
+  color: #11496b!important;
   padding-left: 20px;
   padding-right: 20px;
   z-index: 100;
@@ -3012,10 +3014,15 @@ article {
   font-size: 8px;
   vertical-align: top;
   margin-top: 3px;
-  transition: transform .4s cubic-bezier(.12,.92,.86,1.01);
+  transition: transform .1s cubic-bezier(.25,0,1,1);
   transform:rotateX(0deg);
   transform-origin: 50% 60%;
 }
+.topics-btn .fa-activate {
+  transform:rotateX(180deg);
+}
+
+
 
 /* End Category menu */
 
@@ -3076,14 +3083,14 @@ article {
   -moz-box-shadow: 0px 0px 30px 0px rgba(188,198,204,0.4);
   box-shadow: 0px 0px 30px 0px rgba(188,198,204,0.4);
   transform: scale(1);
-  transition: transform .1s cubic-bezier(0, 0, 0.25, 1);
+  transition: all .2s cubic-bezier(0, 0, 0.25, 1);
 }
 
 .item-block--resource .img-wrap-small:hover {
   -webkit-box-shadow: 0px 0px 30px 0px rgba(188,198,204,0.3);
   -moz-box-shadow: 0px 0px 30px 0px rgba(188,198,204,0.3);
   box-shadow: 0px 0px 30px 0px rgba(188,198,204,0.3);
-  transform: scale(1.02);
+  transform: scale(1.005);
 }
 
 .item-block--writer .img-wrap-small {
@@ -3144,7 +3151,6 @@ article {
 
 .item-block--writer .desc {
   opacity: 0;
-  margin-top: 12px;
   font-size: 15px;
   color: #4c545f;
 }
