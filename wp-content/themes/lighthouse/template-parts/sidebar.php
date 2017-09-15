@@ -15,7 +15,7 @@
 
     <?php $cat = get_queried_object(); $cat_id = "category_".$cat->term_id;?>
 
-      <div class="title-block title-block--sidebar">
+      <div class="title-block title-block--sidebar animate-heavy-left">
         <div class="title-block__wrap">
           <h1><?php echo single_cat_title() ?></h1>
           <div class="tag tag--syllabus">SYLLABUS</div>
@@ -29,7 +29,7 @@
         $title = html_entity_decode($title);
         $title = strtolower(preg_replace("#\s+#u", "-", preg_replace("#[^\w\s]|_#u", "", $title)));
         ?>
-        <span><a class="side-post" href="#<?php echo $title ?>"><?php the_title() ?></a></span>
+        <span><a class="side-post animate-heavy-left" href="#<?php echo $title ?>"><?php the_title() ?></a></span>
       <?php endwhile; ?>
     <?php endif; ?>
 
@@ -47,7 +47,7 @@
       $title = html_entity_decode($title);
       $title = strtolower(preg_replace("#\s+#u", "-", preg_replace("#[^\w\s]|_#u", "", $title)));
       ?>
-      <span><a class="side-post" href="#<?php echo $title ?>"><?php echo the_sub_field('title'); ?></a></span>
+      <span><a class="side-post animate-left" href="#<?php echo $title ?>"><?php echo the_sub_field('title'); ?></a></span>
     <?php endwhile; ?>
 
   <?php endif;  ?>

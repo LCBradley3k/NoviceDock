@@ -73,7 +73,7 @@ $cat_id = "category_".$cat->term_id;
 				<footer class="entry-footer">
 					<?php $has_resources = get_field('resource_btn');
 					if ($has_resources == true) { ?>
-						<a class="resource-btn" href="<?php the_permalink(); ?>">Go to resources <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+						<a class="resource-btn animate-left" href="<?php the_permalink(); ?>">Go to resources <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 					<?php } else { ?>
 					<?php } ?>
 

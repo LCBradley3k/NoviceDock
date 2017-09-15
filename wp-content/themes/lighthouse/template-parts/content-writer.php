@@ -6,7 +6,7 @@
   if(have_rows('writers', $category)) :
     while(have_rows('writers', $category)) : the_row(); ?>
 
-      <div class="new-line new-line--content-writer"></div>
+      <div class="new-line new-line--content-writer animate-fade-in"></div>
 
       <?php $post_objects = get_sub_field('writer', $category ); ?>
 
@@ -17,25 +17,34 @@
          <?php $photo = get_field('photo', $post); ?>
 
             <div class="item-block item-block--writer">
-              <div class="img-wrap img-wrap-small">
+              <div class="img-wrap img-wrap-small animate-scale-up">
                   <img src="<?php echo $photo['url'] ?>" alt="<?php  ?>" />
               </div>
-              <div class="top-wrap">
+              <div class="top-wrap animate-left">
                 <div class="title"><?php echo get_the_title($post_object->ID); ?></div>
                 <div class="tag tag--mentor">MENTOR</div>
+
+              </div>
+              <div class="desc animate-left"><?php echo get_the_content($post_object->ID);  ?>
                 <div class="links">
                   <?php
+                  $numOfLinks = count(get_field('social_links'));
+                  $i = 0;
                   if(have_rows('social_links', $post)) :
                     while(have_rows('social_links', $post)) : the_row();
+                    $i++;
                   ?>
-                  <span><a href="<?php echo the_sub_field('link', $post) ?>" ><?php echo the_sub_field('name', $post); ?></a>, </span>
+                  <?php if($i != $numOfLinks){ ?>
+                    <span><a href="<?php echo the_sub_field('link', $post) ?>" ><?php echo the_sub_field('name', $post); ?></a> &#8226 </span>
+                  <?php } else { ?>
+                    <span><a href="<?php echo the_sub_field('link', $post) ?>" ><?php echo the_sub_field('name', $post); ?></a></span>
+                  <?php } ?>
                 <?php
                     endwhile;
                   endif;
                 ?>
                 </div>
               </div>
-              <div class="desc"><?php echo get_the_content($post_object->ID);  ?></div>
             </div>
 
           <?php wp_reset_postdata();?>
