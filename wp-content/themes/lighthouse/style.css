@@ -3208,6 +3208,11 @@ article {
   /*background-color: #2dbf83;*/
 }
 
+.item-block--resource .sale {
+  color: #dc2c72;
+  /*background-color: #2dbf83;*/
+}
+
 .item-block--resource p:last-child {
   margin-bottom: 0;
 }
