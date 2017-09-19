@@ -73,7 +73,20 @@ $cat_id = "category_".$cat->term_id;
 				<footer class="entry-footer">
 					<?php $has_resources = get_field('resource_btn');
 					if ($has_resources == true) { ?>
-						<a class="resource-btn animate-left" href="<?php the_permalink(); ?>">Go to resources <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+						<?php $i = 0;
+							while(have_rows('resource_blocks')) : the_row();
+							if($i < 3) :
+								$item_img = get_sub_field('image'); ?>
+								<a href="<?php the_permalink(); ?>">
+									<div class="entry-footer__img-wrap entry-footer__img-wrap--<?php echo $i ?> animate-scale-up"><img src="<?php echo $item_img['sizes']['resource-thumb'] ?>" alt="<?php echo $item_img["alt"]; ?>" /></div>
+								</a>
+							<?php
+							endif;
+							$i++;
+						endwhile; ?>
+						<br />
+						<a class="resource-btn" href="<?php the_permalink(); ?>">See all resources <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+
 					<?php } else { ?>
 					<?php } ?>
 
