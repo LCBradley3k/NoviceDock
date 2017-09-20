@@ -10,7 +10,7 @@
   ?>
   <div class="item-block item-block--resource">
     <div class="img-wrap img-wrap-small">
-      <a rel="noopener noreferrer" target="_blank" href="<?php echo $item_url ?>">
+      <a rel="noopener noreferrer" target="_blank" href="<?php echo $item_url ?>" onclick="trackOutboundLink('<?php echo $item_url ?>')">
         <img src="<?php echo $item_img['sizes']['resource-thumb'] ?>" alt="<?php echo $item_img["alt"]; ?>" />
       </a>
     </div>
