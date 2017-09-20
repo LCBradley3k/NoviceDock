@@ -15,7 +15,7 @@
       </a>
     </div>
     <div class="top-wrap">
-      <a rel="noopener noreferrer" target="_blank" href="<?php echo $item_url ?>"><h3><?php echo $item_title ?></h3></a>
+      <a rel="noopener noreferrer" target="_blank" href="<?php echo $item_url ?>" onclick="trackOutboundLink('<?php echo $item_url ?>')"><h3><?php echo $item_title ?></h3></a>
       <div class="main-info">
         <div class="media-type"> <span class="price <?php echo $item_price ?>"><?php echo $item_price ?></span> | <?php echo $item_media_type ?> </div>
       </div>
