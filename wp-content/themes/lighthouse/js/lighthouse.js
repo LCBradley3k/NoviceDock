@@ -64,7 +64,7 @@ jQuery('.sidebar span:nth-of-type(1)').addClass('active');
 var lastId,
     sideMenu = jQuery(".sidebar"),
     // All list items
-    menuItems = sideMenu.find("a"),
+    menuItems = sideMenu.find("a.side-post"),
     // Anchors corresponding to menu items
     scrollItems = menuItems.map(function(){
       var item = jQuery(jQuery(this).attr("href"));
