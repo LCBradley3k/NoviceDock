@@ -33,7 +33,7 @@
       <?php endwhile; ?>
       <div class="fb-save-wrap">
   			<div class="fb-save" data-uri="https://www.novicedock.com" data-size="large"></div>
-  			<a href='https://www.facebook.com/help/220284408163249'><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+  			<!--<a href='https://www.facebook.com/help/220284408163249'><i class="fa fa-question-circle" aria-hidden="true"></i></a>-->
   		</div>
     <?php endif; ?>
 
