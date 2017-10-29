@@ -736,3 +736,9 @@ function create_post_type() {
   );
 }
 add_action( 'init', 'create_post_type' );
+
+// DELETING COOKIE
+add_action( 'init', 'my_deletecookie' );
+function my_deletecookie() {
+   setcookie( 'MCPopupClosed', '', time() - 3600, COOKIEPATH, COOKIE_DOMAIN );
+}
