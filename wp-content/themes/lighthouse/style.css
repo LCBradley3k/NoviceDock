@@ -2516,6 +2516,7 @@ textarea:focus {
 
 .top-widgets .coming-soon {
   background-color: #ebedef;
+  cursor: pointer;
 }
 
 .top-widgets .coming-soon h3 {

@@ -27,32 +27,20 @@ jQuery('.resource-item .img-wrap').each(function(){
     };
 
     // No edits below this line are required
-    var chimpPopupLoader = document.createElement("script");
-    chimpPopupLoader.src = '//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js';
-    chimpPopupLoader.setAttribute('data-dojo-config', 'usePlainJson: true, isDebug: false');
+var chimpPopupLoader = document.createElement("script");
+chimpPopupLoader.src = '//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js';
+chimpPopupLoader.setAttribute('data-dojo-config', 'usePlainJson: true, isDebug: false');
 
-    var chimpPopup = document.createElement("script");
-    chimpPopup.appendChild(document.createTextNode('require(["mojo/signup-forms/Loader"], function (L) { L.start({"baseUrl": "' +  mailchimpConfig.baseUrl + '", "uuid": "' + mailchimpConfig.uuid + '", "lid": "' + mailchimpConfig.lid + '"})});'));
+jQuery(function ($) {
+    document.body.appendChild(chimpPopupLoader);
 
-    jQuery(function ($) {
-        document.body.appendChild(chimpPopupLoader);
-
-        jQuery(".coming-soon").on("click", function () {
-            //alert("Hello");
-            //$.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
-            document.body.appendChild(chimpPopup);
-            //$.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
-            $.removeCookie('MCPopupClosed', { path: '/' });
-        });
-        //document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
-        $.removeCookie('MCPopupClosed', { path: '/' });
-
+    jQuery(".coming-soon").on("click", function () {
+        require(["mojo/signup-forms/Loader"], function (L) { L.start({"baseUrl": mailchimpConfig.baseUrl, "uuid": mailchimpConfig.uuid, "lid": mailchimpConfig.lid})});
+        document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+        document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
     });
 
-    jQuery('.mc-closeModal').on('click', function() {
-      //$.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
-      $.removeCookie('MCPopupClosed', { path: '/' });
-    });
+});
 
 /* Mailchimp Popup */
 
