@@ -82,7 +82,7 @@ jQuery('a[href^=\\#]').on('click', function(event){
     jQuery("h2" + href + " .expand").html('&#45;');
 });
 
-jQuery('.top-widgets h2').on('click', function() {
+jQuery('.category-menu-wrap .top-widgets h2').on('click', function() {
 	jQuery(this).parent().toggleClass('top-widgets-reveal');
   jQuery(this).find('.expand').html(jQuery(this).find('.expand').html() === '+' ? '&#45;' : '&#43;');
 });

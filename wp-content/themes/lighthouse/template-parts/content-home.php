@@ -86,23 +86,22 @@
 	<div class="row">
 		<div class="col-md-12 homepage-categories-wrap">
 		<h4> <span class="text"><?php echo the_field('categories_title', 'option'); ?></span>
-			<div class="view-type-wrap">
+			<!--<div class="view-type-wrap">
 				<a href="#" class="layout-condensed">
 					<span></span><span></span><span></span>
 				</a>
 				<a href="#" class="layout-large">
 					<span></span><span></span><span></span><span></span><span></span><span></span><span></span>
 				</a>
-			</div>
+			</div>-->
 		</h4>
 
 		<?php if(have_rows('category_blocks', 'option')) : ?>
 
 			<?php while(have_rows('category_blocks', 'option')) : the_row(); ?>
-			<div class="top-widgets">
+			<div class="top-widgets top-widgets-reveal">
 				<?php $main_cat_name = get_cat_name(get_sub_field('category_title')); ?>
 				<h2 id="<?php echo get_cat_id($main_cat_name); ?>"><span><?php echo $main_cat_name ?></span>
-					<a class="expand">&#43;</a>
 				</h2>
 				<ul class="menu">
 					<?php while(have_rows('courses', 'option')) : the_row(); ?>
