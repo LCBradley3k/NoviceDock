@@ -36,6 +36,17 @@ Please go to readme.txt for information libraries, credits, changes, fork inform
   }
 }
 
+@keyframes fadeRight {
+  0%{
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 @keyframes scaleUp {
   0%{
     opacity: 0.1;
@@ -57,7 +68,7 @@ Please go to readme.txt for information libraries, credits, changes, fork inform
 }
 
 .fadeHeavyLeft {
-  animation: .3s cubic-bezier(.25,0,.7,1.8) 0s 1 fadeLeft;
+  animation: .3s cubic-bezier(.25,0,.7,1.8) 0s 1 fadeRight;
   animation-fill-mode: forwards;
 }
 
