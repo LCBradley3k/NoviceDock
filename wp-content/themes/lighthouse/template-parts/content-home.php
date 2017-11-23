@@ -85,16 +85,16 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12 homepage-categories-wrap">
-		<h4> <span class="text"><?php echo the_field('categories_title', 'option'); ?></span>
-			<!--<div class="view-type-wrap">
+		<!--<h4> <span class="text"><?php echo the_field('categories_title', 'option'); ?></span>
+			<div class="view-type-wrap">
 				<a href="#" class="layout-condensed">
 					<span></span><span></span><span></span>
 				</a>
 				<a href="#" class="layout-large">
 					<span></span><span></span><span></span><span></span><span></span><span></span><span></span>
 				</a>
-			</div>-->
-		</h4>
+			</div>
+		</h4>-->
 
 		<?php if(have_rows('category_blocks', 'option')) : ?>
 

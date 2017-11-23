@@ -20,15 +20,15 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
+			<div class="col-md-9 content-area">
+					<main id="main" class="site-main" role="main">
+						<?php get_template_part( 'template-parts/content-topic') ?>
+			<?php endif; ?>
+					</main><!-- #main -->
+			</div><!-- #primary -->
 			<div class="col-md-3 sidebar-wrap">
 				<?php get_template_part('template-parts/sidebar'); ?>
 			</div>
-			<div class="col-md-9 content-area">
-				<main id="main" class="site-main" role="main">
-					<?php get_template_part( 'template-parts/content-topic') ?>
-		<?php endif; ?>
-				</main><!-- #main -->
-			</div><!-- #primary -->
 
 				<?php get_sidebar('sidebar-1'); ?>
 

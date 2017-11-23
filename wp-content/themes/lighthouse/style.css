@@ -155,7 +155,7 @@ html, body {
   min-height: 500px;
   position: relative;
   padding-top: 52px;
-  margin-bottom: 85px;
+  margin-bottom: 52px;
   background-color: #DFEBF3;
   overflow: hidden;
 }
@@ -427,6 +427,7 @@ code {
 .subtitle {
   color: #e2a56d!important;
   color: #eaaa70!important;
+  color: #02bd9b!important;
   font-weight: 700!important;
   display: block!important;
   font-size: 16px!important;
@@ -2402,12 +2403,12 @@ textarea:focus {
 .top-widgets h2 {
     height: 56px;
     margin-top: 0;
-    margin-bottom: 0;
-    text-transform: uppercase;
+    margin-bottom: 12px;
     position: relative;
     z-index: 10;
     background-color: #fff;
     color: #191e2c;
+    font-family: "Nunito Sans";
     -webkit-transition: all 150ms ease;
     -ms-transition: all 150ms ease;
     transition: all 150ms ease;
@@ -2416,8 +2417,8 @@ textarea:focus {
 .top-widgets h2 span {
   padding-top: 18px;
   padding-right: 20px;
-  font-size: 16px;
-  letter-spacing: 2px;
+  font-size: 26px;
+  letter-spacing: -0.5px;
   font-weight: 700;
   font-style: normal;
   display: block;
@@ -2995,20 +2996,22 @@ article {
 }
 
 .category-menu-wrap .item-wrap .menu .coming-soon{
-  color: #535456;
+  color: #1d1d1d;
 }
 
 .category-menu-wrap .item-wrap .menu .topic-card a {
-  color: #11496b!important;
+  color: #191e2c!important;
 }
 
 .category-menu-wrap .item-wrap .menu a:hover {
-  color: #11496b!important;
+  color: #191e2c!important;
 }
 
 .category-menu-wrap .top-widgets h2 {
   height: 42px;
   border-bottom: 1px solid #E2E7EB;
+  margin-bottom: 0;
+  cursor: pointer;
   -webkit-transition: margin-bottom 150ms ease;
   -ms-transition: margin-bottom 150ms ease;
   transition: margin-bottom 150ms ease;
@@ -3024,7 +3027,8 @@ article {
   padding-top: 13px;
   letter-spacing: 0;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 16px;
   font-family: "Nunito", sans-serif;
 }
 
@@ -3361,6 +3365,14 @@ article {
   .resources-top-wrap h1.post-title {
     float: right;
   }
+  .col-md-9 {
+    width: 75%;
+    float: left;
+  }
+  .col-md-3 {
+    width: 25%;
+    float: left;
+  }
 
 }
 
@@ -3379,26 +3391,26 @@ article {
     width: 100%;
     padding: 0 12px;
   }
-  .col-md-3 {
+  /*.col-md-3 {
     width: 0;
     float: none;
-  }
+  }*/
   .col-md-9 {
     float: left;
-    margin-left: 250px;
+    /*margin-left: 250px;
     width: auto;
-    max-width: 590px;
+    max-width: 590px;*/
   }
-  .post-content {
+  .sidebar{
     width: auto;
   }
 }
 
 @media (max-width: 684px){
-  .col-md-9 {
+  /*.col-md-9 {
     margin-left: 0;
     width: 100%;
-  }
+  }*/
   .menu-container{
     padding-right: 0;
     padding-left: 0;
