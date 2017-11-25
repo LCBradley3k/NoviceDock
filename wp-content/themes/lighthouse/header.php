@@ -42,7 +42,8 @@
   */
   var trackOutboundLink = function(url) {
      ga('send', 'event', 'outbound', 'click', url, {
-       'transport': 'beacon';}
+       'transport': 'beacon',
+       'hitCallback': function() { if (target.attr('target') !== '_blank') { window.location.href = url; } }
      });
   }
 
