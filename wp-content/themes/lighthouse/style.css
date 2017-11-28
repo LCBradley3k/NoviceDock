@@ -441,7 +441,7 @@ code {
   color: #02bd9b!important;
   font-weight: 700!important;
   display: block!important;
-  font-size: 16px!important;
+  font-size: 20px!important;
   margin-right: 20px!important;
   font-family: "Nunito Sans";
   text-transform: capitalize!important;
@@ -2803,14 +2803,14 @@ article {
   position: relative;
   overflow: visible;
   color: #232631;
-  font-size: 20px;
+  font-size: 30px;
   margin: 0;
   padding-top: 100px;
   margin-top: -100px;
   z-index: 10;
 }
 
-.entry-header h2:after {
+/*.entry-header h2:after {
   content: " ";
   height: 1px;
   width: 100%;
@@ -2819,7 +2819,7 @@ article {
   background-color: #dadfe2;
   background-color: #dde4e8;
   margin-top: 16px;
-}
+}*/
 
 .entry-content {
     margin-bottom: 0px;
