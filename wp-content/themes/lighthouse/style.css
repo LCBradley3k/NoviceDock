@@ -2998,12 +2998,13 @@ article {
 }
 
 .category-menu-wrap .item-wrap .menu .topic-card {
-  height: 32px;
   width: auto;
-  display: inline-block;
-  padding: 6px 12px;
+  display: block;
+  background-color: #ffffff;
+  padding: 0px 12px;
   color: #11496b;
   font-size: 14px;
+  height: auto;
 }
 
 .category-menu-wrap .item-wrap .menu .coming-soon{
@@ -3011,11 +3012,11 @@ article {
 }
 
 .category-menu-wrap .item-wrap .menu .topic-card a {
-  color: #191e2c!important;
+  color: #297cc7!important;
 }
 
 .category-menu-wrap .item-wrap .menu a:hover {
-  color: #191e2c!important;
+  color: #297cc7!important;
 }
 
 .category-menu-wrap .top-widgets h2 {
@@ -3067,7 +3068,7 @@ article {
 .category-menu-wrap .top-widgets-reveal h2 {
   background-color: #fff;
   color: #191d2b;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   border-bottom: none;
 }
 
