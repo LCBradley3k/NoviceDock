@@ -16,6 +16,25 @@ Please go to readme.txt for information libraries, credits, changes, fork inform
 
 /* ANIMATIONS */
 
+/*!
+
+Software used:
+- TYPEPLATE
+  URL ........... http://typeplate.com
+  VERSION ....... 1.1.4
+  Github ........ https://github.com/typeplate/bower
+  AUTHORS ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+  LICENSE ....... Creative Commmons Attribution 3.0 (http://creativecommons.org/licenses/by/3.0)
+- Bourbon (and Bourbon neat)
+  Licensed under the MIT license
+  https://github.com/thoughtbot/bourbon
+- Underscores theme
+  http://underscores.me/
+
+*/
+
+@font-face{font-family:"Clear Sans";font-style:normal;font-weight:100;src:local("ClearSans-Thin"),local("Clear Sans Thin"),url("fonts/EOT/ClearSans-Thin.eot"),url("fonts/EOT/ClearSans-Thin.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-Thin.woff2") format("woff2"),url("fonts/WOFF/ClearSans-Thin.woff") format("woff"),url("fonts/TTF/ClearSans-Thin.ttf") format("truetype"),url("fonts/SVG/ClearSans-Thin.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:normal;font-weight:300;src:local("ClearSans-Light"),local("Clear Sans Light"),url("fonts/EOT/ClearSans-Light.eot"),url("fonts/EOT/ClearSans-Light.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-Light.woff2") format("woff2"),url("fonts/WOFF/ClearSans-Light.woff") format("woff"),url("fonts/TTF/ClearSans-Light.ttf") format("truetype"),url("fonts/SVG/ClearSans-Light.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:normal;font-weight:400;src:local("ClearSans"),local("Clear Sans"),url("fonts/EOT/ClearSans-Regular.eot"),url("fonts/EOT/ClearSans-Regular.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-Regular.woff2") format("woff2"),url("fonts/WOFF/ClearSans-Regular.woff") format("woff"),url("fonts/TTF/ClearSans-Regular.ttf") format("truetype"),url("fonts/SVG/ClearSans-Regular.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:italic;font-weight:400;src:local("ClearSans-Italic"),local("Clear Sans Italic"),url("fonts/EOT/ClearSans-Italic.eot"),url("fonts/EOT/ClearSans-Italic.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-Italic.woff2") format("woff2"),url("fonts/WOFF/ClearSans-Italic.woff") format("woff"),url("fonts/TTF/ClearSans-Italic.ttf") format("truetype"),url("fonts/SVG/ClearSans-Italic.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:normal;font-weight:500;src:local("ClearSans-Medium"),local("Clear Sans Medium"),url("fonts/EOT/ClearSans-Medium.eot"),url("fonts/EOT/ClearSans-Medium.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-Medium.woff2") format("woff2"),url("fonts/WOFF/ClearSans-Medium.woff") format("woff"),url("fonts/TTF/ClearSans-Medium.ttf") format("truetype"),url("fonts/SVG/ClearSans-Medium.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:italic;font-weight:500;src:local("ClearSans-MediumItalic"),local("Clear Sans Medium Italic"),url("fonts/EOT/ClearSans-MediumItalic.eot"),url("fonts/EOT/ClearSans-MediumItalic.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-MediumItalic.woff2") format("woff2"),url("fonts/WOFF/ClearSans-MediumItalic.woff") format("woff"),url("fonts/TTF/ClearSans-MediumItalic.ttf") format("truetype"),url("fonts/SVG/ClearSans-MediumItalic.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:normal;font-weight:700;src:local("ClearSans-Bold"),local("Clear Sans Bold"),url("fonts/EOT/ClearSans-Bold.eot"),url("fonts/EOT/ClearSans-Bold.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-Bold.woff2") format("woff2"),url("fonts/WOFF/ClearSans-Bold.woff") format("woff"),url("fonts/TTF/ClearSans-Bold.ttf") format("truetype"),url("fonts/SVG/ClearSans-Bold.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:italic;font-weight:700;src:local("ClearSans-BoldItalic"),local("Clear Sans Bold Italic"),url("fonts/EOT/ClearSans-BoldItalic.eot"),url("fonts/EOT/ClearSans-BoldItalic.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-BoldItalic.woff2") format("woff2"),url("fonts/WOFF/ClearSans-BoldItalic.woff") format("woff"),url("fonts/TTF/ClearSans-BoldItalic.ttf") format("truetype"),url("fonts/SVG/ClearSans-BoldItalic.svg") format("svg")}
+
 @keyframes slideUpArticle {
   0% {
     transform: translateY(7px);
@@ -710,12 +729,12 @@ span.active a.side-post {
 
 .title-block h1 {
   margin: 0;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 700;
   font-family: "Nunito Sans", Nunito, sans-serif;
   margin-left:0px;
   color: #232631;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   margin-bottom: 5px;
 }
 
@@ -1172,19 +1191,15 @@ img.wp-post-image {
     width: 100%;
     overflow: hidden;
     background-size: cover;
-    height:65px!important;
-    background-color:#F7D5B6;
-    background-color:#f9d4b2;
+    height:60px!important;
+    /*background-color:#F7D5B6;
+    background-color:#f9d4b2;*/
+    background-color:#2a3350;
     box-shadow:none!important;
 }
 
 .site-header-inner {
-  height:60px!important;
   width:100%;
-  background-color: #2A324B;
-  background-color: #2a3350;
-  /*background-color: #353e5d;*/
-  /*background-color: #323c5f;*/
   margin:0 auto;
 }
 
@@ -1224,7 +1239,7 @@ img.wp-post-image {
 .single-post-content {
     clear: both;
     margin-bottom: 85px;
-    width:590px
+    width:640px
 }
 
 .post-content:first-child {
@@ -2730,6 +2745,7 @@ li.menu-item {
 .entry-content p {
   font-size:16px!important;
   overflow: hidden;
+  color: #374d59;
 }
 
 @media (min-width:1200px){
@@ -3235,7 +3251,7 @@ article {
 
 .item-block--resource .desc {
   margin-top: 8px;
-  color: #232631;
+  color: #374d59;
 }
 
 .item-block--writer .desc {

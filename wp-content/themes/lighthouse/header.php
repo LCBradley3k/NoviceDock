@@ -23,6 +23,7 @@
   <!--<link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">-->
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700,700i,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/clear-sans.css">
   <?php wp_head(); ?>
   <script type="text/javascript" src="downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"1356322e2ea5575b4182a4f5d","lid":"36776de185"}) })</script>
   <script>
