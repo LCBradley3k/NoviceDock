@@ -11,6 +11,51 @@ get_header(); ?>
 
 <div id="content" class="site-content content-with-sidebar">
 
+<div class="syllabus-visual">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-12">
+		<div class="syllabus-visual__inner-wrap">
+			<div class="tag tag--syllabus">Syllabus</div>
+			<h1><?php echo single_cat_title() ?></h1>
+		</div>
+		<div class="syllabus-visual--footer">
+
+			<?php 
+			$totalNumOfResources = 0;
+			$totalWords = 0;
+			while ( have_posts() ) : the_post(); 
+				// get the number of resources in a post
+				$text = wp_strip_all_tags( get_the_content() );
+				$totalWords += str_word_count($text);
+				while(have_rows('resource_blocks')) : the_row();
+					$totalNumOfResources++;
+				endwhile;
+			endwhile;
+			?>
+
+				<p class="desc">Written by <span class="writer">
+					<?php $category = get_queried_object();
+					if(have_rows('writers', $category)) :
+					while(have_rows('writers', $category)) : the_row(); ?> 
+						<?php $post_objects = get_sub_field('writer', $category ); ?>
+						<?php if( $post_objects ) : ?>
+							<?php $post = $post_objects; ?>
+							<?php setup_postdata($post); ?>		
+							<?php echo get_the_title($post_object->ID) ?>
+						<?php endif; ?>
+					<?php endwhile;
+					endif; ?>
+				</span></p>
+				<p class="desc"><span class="number number--sections"><?php echo $category->count ?></span> Sections</p>
+				<p class="desc"><span class="number number--resources"><?php echo $totalNumOfResources ?></span> Resources</p>
+				<p class="desc"><span class="number number--min"><?php echo floor($totalWords / 220) ?></span> Min Read</p>
+			</div>
+	</div>
+	</div>
+	</div>
+</div>
+
 <div class="container syllabus-container">
 
 	<div class="row">

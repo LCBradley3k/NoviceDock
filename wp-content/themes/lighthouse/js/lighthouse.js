@@ -171,6 +171,13 @@ jQuery(window).scroll(function(){
 
    }
 
+   var visualHeight = jQuery('.syllabus-visual').height();
+   if (window.scrollY > visualHeight){
+     $sidebar.css("position", "fixed");
+   } else {
+     $sidebar.css("position", "relative");
+   }
+
 
    if (jQuery('.sidebar').length){
      if (window.scrollY + sideBottom > contBottom) {

@@ -742,3 +742,39 @@ add_action( 'init', 'my_deletecookie' );
 function my_deletecookie() {
    setcookie( 'MCPopupClosed', '', time() - 3600, COOKIEPATH, COOKIE_DOMAIN );
 }
+
+// Custom Excerpt length
+if ( ! function_exists( 'wpse0001_custom_wp_trim_excerpt' ) ) : 
+	
+	function wpse0001_custom_wp_trim_excerpt($wpse0001_excerpt) {
+	global $post;
+	$raw_excerpt = $wpse0001_excerpt;
+	if ( '' == $wpse0001_excerpt ) {
+	
+	$wpse0001_excerpt = get_the_content('');
+	$wpse0001_excerpt = strip_shortcodes( $wpse0001_excerpt );
+	$wpse0001_excerpt = apply_filters('the_content', $wpse0001_excerpt);
+	// Here we choose how many paragraphs do we want to cutthe excerpt at, This part thanks to Clément Malet
+		$wanted_number_of_paragraph = 2;
+		$tmp = explode ('</p>', $wpse0001_excerpt);
+		for ($i = 0; $i < $wanted_number_of_paragraph; $i++) {
+		   if (isset($tmp[$i]) && $tmp[$i] != '') {
+			   $tmp_to_add[$i] = $tmp[$i];
+		   }
+		}
+	$wpse0001_excerpt = implode('</p>', $tmp_to_add) . '</p>';
+	
+	$wpse0001_excerpt = str_replace(']]>', ']]&gt;', $wpse0001_excerpt);
+	
+	$wpse0001_excerpt .= $excerpt_end;
+	
+	return $wpse0001_excerpt;
+	
+	}
+	return apply_filters('wpse0001_custom_wp_trim_excerpt', $wpse0001_excerpt, $raw_excerpt);
+	}
+	
+	endif; 
+	
+	remove_filter('get_the_excerpt', 'wp_trim_excerpt');
+	add_filter('get_the_excerpt', 'wpse0001_custom_wp_trim_excerpt');
