@@ -72,7 +72,7 @@ $i = 1 // number posts
 			if ($has_resources == true) { ?>
 				<div class="resource-wrap">
 					<?php $i = 0; ?>
-					<h3><span class="number"><?php echo $numOfResources ?></span> Curated Resources</h3>
+					<h3><span class="number"><?php echo $numOfResources ?></span> Curated Resources <img class="present-icon" src="<?php echo get_template_directory_uri(); ?>/images/present.png" alt="Present Icon"></h3> 
 					<?php 
 					while(have_rows('resource_blocks')) : the_row();
 					if($i < 2) :
@@ -99,7 +99,7 @@ $i = 1 // number posts
 						</div>
 					<?php
 					endif;
-					if($i > 2 && $i < 6){ 
+					if($i >= 2 && $i < 5){ 
 						// small item blocks
 						$item_img = get_sub_field('image');
 						$item_url = get_sub_field('url'); ?>
@@ -117,7 +117,7 @@ $i = 1 // number posts
 					
 				</div>
 			<?php } else { ?>
-				<div class="resource-wrap">
+				<div class="resource-wrap resource-wrap--no-resources">
 					<h3 class="--none">No Resources</h3>
 					<p>Check the other sections in this syllabus to find more resources!</p>
 					<a class="entry-footer__btn entry-footer__btn--post" href="<?php the_permalink(); ?>">View Full Summary</a>

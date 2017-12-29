@@ -134,10 +134,11 @@ jQuery( window ).load(function() {
     console.log("contBottom = " + contBottom);
   }
 
+
 // Bind to scroll
 jQuery(window).scroll(function(){
    // Get container scroll position
-   var fromTop = jQuery(this).scrollTop()+210;
+   var fromTop = jQuery(this).scrollTop()+102;
 
    // Get id of current scroll item
    var cur = scrollItems.map(function(){
@@ -171,7 +172,7 @@ jQuery(window).scroll(function(){
 
    }
 
-   var visualHeight = jQuery('.syllabus-visual').height();
+   var visualHeight = jQuery('.syllabus-visual').height() + jQuery('.site-header').height();
    if (window.scrollY > visualHeight){
      $sidebar.css("position", "fixed");
    } else {

@@ -29,14 +29,14 @@
         ?>
         <span><a class="side-post animate-heavy-left" href="#<?php echo $title ?>"><?php the_title() ?></a></span>
       <?php endwhile; ?>
-      <div class="fb-save-wrap">
+      <!--<div class="fb-save-wrap">
         <?php
         global $wp;
         $current_url = home_url(add_query_arg(array(),$wp->request));
          ?>
   			<div class="fb-save" data-uri="<?php echo $current_url ?>" data-size="large"></div>
   			<a href='https://www.facebook.com/help/220284408163249' rel="noopener noreferrer" target="_blank"><span><i class="fa fa-question-circle" aria-hidden="true"></i></span></a>
-  		</div>
+  		</div>-->
     <?php endif; ?>
 
   <?php endif; ?>

@@ -118,7 +118,9 @@ add_action( 'widgets_init', 'lighthouse_widgets_init' );
 function lighthouse_scripts ( $in_footer ) {
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri().'/css/bootstrap.css',true );
 
-	wp_enqueue_style( 'lighthouse-style', get_stylesheet_uri() );
+	// wp_enqueue_style( 'lighthouse-style', get_stylesheet_uri() );
+	// dynamic stylesheet
+	wp_enqueue_style( 'lighthouse-style', get_stylesheet_directory_uri() . '/style.css', array(), filemtime( get_stylesheet_directory() . '/style.css' ) );
 
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri().'/font-awesome/css/font-awesome.min.css',true );
 
@@ -778,3 +780,4 @@ if ( ! function_exists( 'wpse0001_custom_wp_trim_excerpt' ) ) :
 	
 	remove_filter('get_the_excerpt', 'wp_trim_excerpt');
 	add_filter('get_the_excerpt', 'wpse0001_custom_wp_trim_excerpt');
+
