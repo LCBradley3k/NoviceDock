@@ -2656,7 +2656,7 @@ textarea:focus {
   background-color: #e5eff5;
   background-color: #e6f0f9;
   margin-right: 5px;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   transition: all 0.3s ease;
   border-radius: 3px;
 }
