@@ -2,11 +2,14 @@
 <?php
   $category = get_queried_object();
   $cat_id = get_queried_object_id();
+  $k = 0;
 
   if(have_rows('writers', $category)) :
     while(have_rows('writers', $category)) : the_row(); ?>
 
-      <div class="new-line new-line--content-writer animate-fade-in"></div>
+      <?php if($k == 0){ ?>
+        <div class="new-line new-line--content-writer animate-fade-in"></div>
+      <?php } $k++ ?>
 
       <?php $post_objects = get_sub_field('writer', $category ); ?>
 

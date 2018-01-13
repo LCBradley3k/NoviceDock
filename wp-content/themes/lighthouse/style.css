@@ -33,7 +33,6 @@ Software used:
 
 */
 
-@font-face{font-family:"Clear Sans";font-style:normal;font-weight:100;src:local("ClearSans-Thin"),local("Clear Sans Thin"),url("fonts/EOT/ClearSans-Thin.eot"),url("fonts/EOT/ClearSans-Thin.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-Thin.woff2") format("woff2"),url("fonts/WOFF/ClearSans-Thin.woff") format("woff"),url("fonts/TTF/ClearSans-Thin.ttf") format("truetype"),url("fonts/SVG/ClearSans-Thin.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:normal;font-weight:300;src:local("ClearSans-Light"),local("Clear Sans Light"),url("fonts/EOT/ClearSans-Light.eot"),url("fonts/EOT/ClearSans-Light.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-Light.woff2") format("woff2"),url("fonts/WOFF/ClearSans-Light.woff") format("woff"),url("fonts/TTF/ClearSans-Light.ttf") format("truetype"),url("fonts/SVG/ClearSans-Light.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:normal;font-weight:400;src:local("ClearSans"),local("Clear Sans"),url("fonts/EOT/ClearSans-Regular.eot"),url("fonts/EOT/ClearSans-Regular.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-Regular.woff2") format("woff2"),url("fonts/WOFF/ClearSans-Regular.woff") format("woff"),url("fonts/TTF/ClearSans-Regular.ttf") format("truetype"),url("fonts/SVG/ClearSans-Regular.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:italic;font-weight:400;src:local("ClearSans-Italic"),local("Clear Sans Italic"),url("fonts/EOT/ClearSans-Italic.eot"),url("fonts/EOT/ClearSans-Italic.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-Italic.woff2") format("woff2"),url("fonts/WOFF/ClearSans-Italic.woff") format("woff"),url("fonts/TTF/ClearSans-Italic.ttf") format("truetype"),url("fonts/SVG/ClearSans-Italic.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:normal;font-weight:500;src:local("ClearSans-Medium"),local("Clear Sans Medium"),url("fonts/EOT/ClearSans-Medium.eot"),url("fonts/EOT/ClearSans-Medium.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-Medium.woff2") format("woff2"),url("fonts/WOFF/ClearSans-Medium.woff") format("woff"),url("fonts/TTF/ClearSans-Medium.ttf") format("truetype"),url("fonts/SVG/ClearSans-Medium.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:italic;font-weight:500;src:local("ClearSans-MediumItalic"),local("Clear Sans Medium Italic"),url("fonts/EOT/ClearSans-MediumItalic.eot"),url("fonts/EOT/ClearSans-MediumItalic.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-MediumItalic.woff2") format("woff2"),url("fonts/WOFF/ClearSans-MediumItalic.woff") format("woff"),url("fonts/TTF/ClearSans-MediumItalic.ttf") format("truetype"),url("fonts/SVG/ClearSans-MediumItalic.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:normal;font-weight:700;src:local("ClearSans-Bold"),local("Clear Sans Bold"),url("fonts/EOT/ClearSans-Bold.eot"),url("fonts/EOT/ClearSans-Bold.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-Bold.woff2") format("woff2"),url("fonts/WOFF/ClearSans-Bold.woff") format("woff"),url("fonts/TTF/ClearSans-Bold.ttf") format("truetype"),url("fonts/SVG/ClearSans-Bold.svg") format("svg")}@font-face{font-family:"Clear Sans";font-style:italic;font-weight:700;src:local("ClearSans-BoldItalic"),local("Clear Sans Bold Italic"),url("fonts/EOT/ClearSans-BoldItalic.eot"),url("fonts/EOT/ClearSans-BoldItalic.eot?#iefix") format("embedded-opentype"),url("fonts/woff2-convert/ClearSans-BoldItalic.woff2") format("woff2"),url("fonts/WOFF/ClearSans-BoldItalic.woff") format("woff"),url("fonts/TTF/ClearSans-BoldItalic.ttf") format("truetype"),url("fonts/SVG/ClearSans-BoldItalic.svg") format("svg")}
 
 @keyframes slideUpArticle {
   0% {
@@ -522,6 +521,8 @@ object {
   background: #ffb7b7; /* Gecko Browsers */
 }
 
+
+
 .wip-text-wrap {
   margin-top: 138px;
   max-width: 380px;
@@ -953,98 +954,6 @@ img {
     margin-bottom: 1em
 }
 
-.alignnone {
-    margin: 5px 20px 20px 0
-}
-
-.aligncenter,
-div.aligncenter {
-    display: block;
-    margin: 5px auto
-}
-
-.alignright {
-    float: right;
-    margin: 5px 0 20px 20px
-}
-
-.alignleft {
-    float: left;
-    margin: 5px 20px 0px 0
-}
-
-a img.alignright {
-    float: right;
-    margin: 5px 0 20px 20px
-}
-
-a img.alignleft,
-a img.alignnone {
-    margin: 5px 20px 20px 0
-}
-
-a img.alignleft {
-    float: left
-}
-
-.navbar-nav,
-.tags-links {
-    float: right
-}
-
-a img.aligncenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px
-}
-
-.wp-caption {
-    background: #fff;
-    max-width: 96%;
-    padding: 5px 3px 10px;
-    text-align: center;
-    color: #15bf23;
-}
-
-.wp-caption.aligncenter,
-.wp-caption.alignnone {
-    margin: 5px auto 20px
-}
-
-.wp-caption.alignleft {
-    margin: 5px 20px 20px 0
-}
-
-.wp-caption.alignright {
-    margin: 5px 0 20px 20px
-}
-
-.wp-caption img {
-    border: 0;
-    height: auto;
-    margin: 0;
-    max-width: 98.5%;
-    padding: 0;
-    width: auto
-}
-
-.wp-caption-text {
-    font-size: 14px;
-    text-align: center
-}
-
-.wp-caption .wp-caption-text {
-    margin: .8075em 0
-}
-
-.wp-caption p.wp-caption-text {
-    font-size: 14px;
-    line-height: 17px;
-    margin: 0;
-    padding: 0 4px 5px
-}
-
 .size-auto,
 .size-full,
 .size-large,
@@ -1085,6 +994,77 @@ img.wp-post-image {
     max-width: 100%;
     width: auto;
     height: auto
+}
+
+/* Captions */
+
+.alignnone {
+  margin: 5px 20px 20px 0
+}
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto
+}
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 0px 0
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px
+}
+
+a img.alignleft,
+a img.alignnone {
+  margin: 5px 20px 20px 0
+}
+
+a img.alignleft {
+  float: left
+}
+
+.navbar-nav,
+.tags-links {
+  float: right
+}
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px
+}
+
+.wp-caption {
+  background: #fff;
+  max-width: 96%;
+  padding: 0;
+  color: #15bf23;
+  text-align: left;
+}
+
+.wp-caption img {
+margin: 0;
+}
+
+.wp-caption-text {
+  font-size: 12px!important;
+  line-height: 20px!important;
+  text-align: left;
+  opacity: 0.6;
+}
+
+.wp-caption .wp-caption-text {
+  margin: 5px 0
 }
 
 .image-attachment {
@@ -2886,7 +2866,7 @@ li.menu-item {
 }
 
 .entry-content p {
-  font-size:16px!important;
+  font-size:16px;
   overflow: hidden;
   color: #374d59;
 }

@@ -36,14 +36,18 @@ get_header(); ?>
 
 				<p class="desc">Written by <span class="writer">
 					<?php $category = get_queried_object();
+					$j = 0;
 					if(have_rows('writers', $category)) :
 					while(have_rows('writers', $category)) : the_row(); ?> 
 						<?php $post_objects = get_sub_field('writer', $category ); ?>
-						<?php if( $post_objects ) : ?>
-							<?php $post = $post_objects; ?>
-							<?php setup_postdata($post); ?>		
-							<?php echo get_the_title($post_object->ID) ?>
-						<?php endif; ?>
+						<?php if( $post_objects ) : 
+							$post = $post_objects; 
+							setup_postdata($post); 	
+							if($j == 0){ ?>
+								<?php echo get_the_title($post_object->ID);?>
+							<?php }
+							$j++;
+						endif; ?>
 					<?php endwhile;
 					endif; ?>
 				</span></p>
