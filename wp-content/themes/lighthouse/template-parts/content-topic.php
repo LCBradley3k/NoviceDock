@@ -50,7 +50,7 @@ $i = 1 // number posts
 				<h1 id="<?php echo $title ?>" class="entry-title"><?php the_title(); ?></h1>
 			<?php else : ?>
 				<h2 id="<?php echo $title ?>" class="entry-title">
-					<span class="post-number"><?php echo $i ?></span><span><?php the_title(); ?></span>
+					<span class="post-number"><?php echo $i ?></span><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span>
 				</h2>
 			<?php endif; // is_single() ?>
 

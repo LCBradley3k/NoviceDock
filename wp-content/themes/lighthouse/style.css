@@ -457,13 +457,14 @@ code {
   color: #e7b676 !important;
   color: #e9b15e !important;
   color: #e6b37a !important;
+  color: #313850 !important;
   font-weight: 700!important;
   display: block!important;
   font-size: 20px!important;
   margin-right: 20px!important;
   font-family: "Nunito Sans";
-  text-transform: capitalize!important;
-  margin-bottom: 12px!important;
+  text-transform: none!important;
+  margin-bottom: 16px!important;
   margin-top: -5px;
 }
 
@@ -2953,6 +2954,10 @@ article:last-child{
   padding-top: 100px;
   margin-top: -100px;
   z-index: 10;
+}
+
+.entry-header h2 a, .entry-header h2 a:hover {
+  color: #232631!important;
 }
 
 /*.entry-header h2:after {
