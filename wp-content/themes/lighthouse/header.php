@@ -49,10 +49,11 @@
   }
 
   </script>
+  
 </head>
 
 <body <?php body_class(); ?>>
-
+<script src="https://embed.small.chat/T7QEQN875G8XE5BGPN.js" async></script>
 <div id="fb-root"></div>
 <script>
   window.fbAsyncInit = function() {
