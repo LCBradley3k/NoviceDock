@@ -342,6 +342,7 @@ html, body {
   margin-bottom: -12px;
   position: relative;
   max-width: 640px;
+  z-index: 1000;
 }
 
 .syllabus-container .cta p {
