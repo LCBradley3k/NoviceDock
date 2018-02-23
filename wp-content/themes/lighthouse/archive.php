@@ -76,6 +76,16 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<div class="col-md-9 content-area">
+				<?php  
+					$category = get_queried_object();
+					$cta = get_field("cta", $category);
+					if (!empty($cta)):
+				?>
+				<div class="cta">
+					<div class="alert-icon-wrap"><img src="<?php echo get_template_directory_uri(); ?>/images/announce.png" alt="Announcement Icon"></div>
+						<?php echo $cta ?>
+				</div>
+					<?php endif; ?>
 					<main id="main" class="site-main" role="main">
 						<?php get_template_part( 'template-parts/content-topic') ?>
 			<?php endif; ?>

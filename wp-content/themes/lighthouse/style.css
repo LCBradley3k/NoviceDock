@@ -335,6 +335,38 @@ html, body {
   position: relative;
 }
 
+.syllabus-container .cta {
+  background-color: #f8f8f8;
+  padding: 12px 20px 12px 36px;
+  margin-top: 52px;
+  margin-bottom: -12px;
+  position: relative;
+  max-width: 640px;
+}
+
+.syllabus-container .cta p {
+  padding: 0;
+  margin: 0;
+}
+
+.syllabus-container .cta .alert-icon-wrap {
+  background-color: #F0706B;
+  width:30px;
+  height: 30px;
+  position: absolute;
+  left: -8px;
+  top: -8px;
+  transform: rotate(-3deg);
+}
+
+.syllabus-container .cta .alert-icon-wrap img {
+  position: absolute;
+  margin: auto;
+  top: 0; right: 0; left: 0; bottom: 0;
+  height: 18px;
+  width: 18px;
+}
+
 .writer-container {
   margin-top: 52px;
   margin-bottom: 85px;
