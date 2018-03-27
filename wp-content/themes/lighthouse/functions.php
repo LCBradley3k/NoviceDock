@@ -781,3 +781,8 @@ if ( ! function_exists( 'wpse0001_custom_wp_trim_excerpt' ) ) :
 	remove_filter('get_the_excerpt', 'wp_trim_excerpt');
 	add_filter('get_the_excerpt', 'wpse0001_custom_wp_trim_excerpt');
 
+/**
+ * Enable ACF 5 early access
+ * Requires at least version ACF 4.4.12 to work
+ */
+define('ACF_EARLY_ACCESS', '5');
