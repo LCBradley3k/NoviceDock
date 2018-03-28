@@ -6,27 +6,33 @@ Template Name: Internal
 
 get_header(); ?>
 
-<h1><?php echo get_the_title(); ?></h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
 
-<?php 
-// loop through content blocks
-if(have_rows("blocks")):
-    while(have_rows("blocks")) : the_row();
+            <h1><?php echo get_the_title(); ?></h1>
 
-        // get the name of the block
-        $layout_name = get_row_layout(); 
-        // render that block
-        get_template_part('blocks/content-blocks/block', $layout_name) ?>
+            <?php 
+            // loop through content blocks
+            if(have_rows("blocks")):
+                while(have_rows("blocks")) : the_row();
 
- <?php
-    endwhile;
-else:
-    // no layouts found
-endif;
+                    // get the name of the block
+                    $layout_name = get_row_layout(); 
+                    // render that block
+                    get_template_part('blocks/content-blocks/block', $layout_name) ?>
 
-?>
+            <?php
+                endwhile;
+            else:
+                // no layouts found
+            endif;
+
+            ?>
 
 
-
+        </div>
+    </div>
+</div>
 
 <?php get_footer(); ?>
