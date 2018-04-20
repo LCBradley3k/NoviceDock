@@ -16,6 +16,7 @@ get_header(); ?>
 	<div class="row">
 	<div class="col-md-12">
 		<div class="syllabus-visual__inner-wrap">
+			<h1><?php echo single_cat_title() ?></h1>
 			<div class="tag tag--syllabus">
 			<?php $cat = get_queried_object(); 
 					$catid = get_queried_object_id();
@@ -23,7 +24,6 @@ get_header(); ?>
 			<?php echo the_field("category_type", $cat); ?>
 			
 			</div>
-			<h1><?php echo single_cat_title() ?></h1>
 		</div>
 		<div class="syllabus-visual--footer">
 
